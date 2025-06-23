@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>stream tv cs</title>
+    <style>
+        body {{
+            background-color: #121212;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }}
+        header {{
+            background-color: #1f1f1f;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+        }}
+        nav {{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            background-color: #1c1c1c;
+            padding: 10px;
+        }}
+        nav button {{
+            background-color: #2d2d2d;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            margin: 5px;
+            cursor: pointer;
+            border-radius: 5px;
+        }}
+        nav button:hover {{
+            background-color: #3d3d3d;
+        }}
+        iframe {{
+            display: block;
+            margin: 0 auto;
+            width: 95%;
+            height: 500px;
+            border: none;
+        }}
+    </style>
+    <script>
+        function loadCategory(url) {{
+            document.getElementById('playerFrame').src = url;
+        }}
+    </script>
+</head>
+<body>
+    <header>stream tv cs</header>
+    <nav>
+        <button onclick="loadCategory('https://player.iptv-tool.com/?url=http://myxxecjv.atlas-pro.xyz:88/get.php?username=6ML9FDLG&password=Q3QUXARY&type=m3u_plus&output=mpegts')">📺 عامة</button>
+        <button onclick="loadCategory('https://player.iptv-tool.com/?url=http://myxxecjv.atlas-pro.xyz:88/get.php?username=6ML9FDLG&password=Q3QUXARY&type=m3u_plus&category=Sports&output=mpegts')">⚽ رياضة</button>
+        <button onclick="loadCategory('https://player.iptv-tool.com/?url=http://myxxecjv.atlas-pro.xyz:88/get.php?username=6ML9FDLG&password=Q3QUXARY&type=m3u_plus&category=Movies&output=mpegts')">🎬 أفلام</button>
+        <button onclick="loadCategory('https://player.iptv-tool.com/?url=http://myxxecjv.atlas-pro.xyz:88/get.php?username=6ML9FDLG&password=Q3QUXARY&type=m3u_plus&category=Kids&output=mpegts')">👶 أطفال</button>
+    </nav>
+    <iframe id="playerFrame" src=""></iframe>
+</body>
+</html>
